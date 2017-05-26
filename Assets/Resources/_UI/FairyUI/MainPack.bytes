@@ -1,0 +1,223 @@
+8zqr1g.xml|511|<component size="94,100" pivot="0,1">
+  <displayList>
+    <image id="n0" name="Bg" src="8zqr1f" xy="0,0"/>
+    <loader id="n1" name="Icon" xy="17,4" size="110,110" scale="0.5,0.5" url="ui://l7qd2j0bje12l"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="0.5,0.5" duration="4" ease="Linear"/>
+    <item time="4" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" yoyo="true"/>
+  </transition>
+</component>aiat21.xml|523|<component size="597,59" extention="ProgressBar">
+  <displayList>
+    <image id="n0" name="n0" src="aiat1z" xy="45,20" size="500,16" grayed="true"/>
+    <image id="n3" name="bar" src="aiat1z" xy="45,20" size="500,16"/>
+    <image id="n2" name="n2" src="aiat1x" xy="509,0"/>
+    <image id="n1" name="n1" src="aiat1y" xy="0,0"/>
+    <loader id="n4" name="n4" xy="488,-29" size="102,64" url="ui://l7qd2j0bcqnex">
+      <relation target="n3" sidePair="right-right"/>
+    </loader>
+  </displayList>
+  <ProgressBar/>
+</component>aiat22.xml|468|<component size="640,960">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="640,960" type="rect" lineSize="0" fillColor="#ff336666"/>
+    <component id="n0" name="n0" src="aiat21" xy="20,725">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n2" name="n2" xy="152,126" size="382,119" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="Loading..."/>
+  </displayList>
+</component>aiat24.xml|380|<component size="100,100" pivot="0.5,0.5" anchor="true" extention="Button">
+  <displayList>
+    <graph id="n0" name="Animal" xy="0,0" pivot="0.5,0.5" size="100,100"/>
+    <component id="n1" name="Audio" src="m8hr16" pkg="5coj2i4m" xy="37,43" pivot="0.5,0.5"/>
+    <component id="n2" name="Top" src="nbvw1l" xy="0,0" controller="State,0"/>
+  </displayList>
+  <Button/>
+</component>bl921r.xml|180|<component size="60,51" pivot="0,1">
+  <displayList>
+    <loader id="n0" name="Icon" xy="0,0" pivot="0.5,0.5" size="60,51" url="ui://l7qd2j0bant61m"/>
+  </displayList>
+</component>bl921s.xml|339|<component size="113,71" overflow="hidden" opaque="false">
+  <displayList>
+    <component id="n23" name="n2" src="bl921t" xy="0,0"/>
+    <component id="n24" name="n2" src="bl921t" xy="90,0"/>
+    <component id="n25" name="n2" src="bl921t" xy="30,0"/>
+    <component id="n26" name="n2" src="bl921t" xy="62,0"/>
+  </displayList>
+</component>bl921t.xml|794|<component size="23,33">
+  <displayList>
+    <image id="n2" name="n2" src="hjlt17" xy="0,0"/>
+    <image id="n3" name="n3" src="hjlt17" xy="0,0"/>
+  </displayList>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n2" tween="true" startValue="0,-35" endValue="0,40" duration="12" ease="Linear" repeat="-1"/>
+    <item time="12" type="XY" target="n2" tween="true" startValue="0,40" ease="Linear" repeat="-1"/>
+  </transition>
+  <transition name="t2" autoPlay="true" autoPlayRepeat="-1">
+    <item time="7" type="XY" target="n3" tween="true" startValue="0,-35" endValue="0,40" duration="11" ease="Linear" repeat="-1"/>
+    <item time="18" type="XY" target="n3" tween="true" startValue="0,40" ease="Linear" repeat="-1"/>
+  </transition>
+</component>bl921u.xml|329|<component size="133,217" pivot="0.5,0.5">
+  <displayList>
+    <image id="n0" name="LineHead" src="hjlt18" xy="0,0" group="n25"/>
+    <component id="n23" name="Rains" src="bl921s" xy="9,141" size="113,76" group="n25"/>
+    <group id="n25" name="ShowerGroup" xy="0,0" size="133,217" advanced="true"/>
+  </displayList>
+</component>caqo1q.xml|191|<component size="640,160" opaque="false">
+  <displayList>
+    <loader id="n17" name="CaoCong" xy="0,0" pivot="0.5,0.5" size="640,159" url="ui://l7qd2j0bcaqo1p"/>
+  </displayList>
+</component>cp9q10.xml|411|<component size="92,110" pivot="0.5,0.5" anchor="true" opaque="false">
+  <controller name="State" pages="0,JiaZi,1,Food,2,Shower,3,ChanZi,4,Hand,5,Bag,6,KongXian" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,selected,3,selectedover" selected="0"/>
+  <displayList>
+    <loader id="n21" name="Icon" xy="0,0" pivot="0.5,0.5" size="92,110" url="ui://ldxq6q149mapb"/>
+  </displayList>
+</component>cp9q13.xml|312|<component size="640,700" opaque="false">
+  <displayList>
+    <component id="n2" name="ShowerHead" src="bl921u" xy="255,25" pivot="0.5,0.5"/>
+    <image id="n4" name="Line" src="hjlt19" xy="312,-110" size="20,145">
+      <relation target="n2" sidePair="bottomext-top"/>
+    </image>
+  </displayList>
+</component>cqnex.xml|316|<movieclip interval="83" frameCount="8">
+  <frames>
+    <frame rect="9,0,74,65"/>
+    <frame rect="7,5,74,64"/>
+    <frame rect="8,6,72,63"/>
+    <frame rect="8,3,75,65"/>
+    <frame rect="5,2,79,66"/>
+    <frame rect="2,7,80,62"/>
+    <frame rect="6,6,74,68"/>
+    <frame rect="0,2,81,65"/>
+  </frames>
+</movieclip>je122.xml|1038|<component size="640,960" opaque="false">
+  <displayList>
+    <loader id="n14" name="MainBg" xy="0,0" size="640,960" url="ui://l7qd2j0bcaqo1o" align="center" vAlign="middle" fill="scale"/>
+    <component id="n24" name="n24" src="caqo1q" xy="0,635" size="640,162"/>
+    <component id="n16" name="AnimalPlace" src="cp9q13" xy="0,110" size="640,700"/>
+    <component id="n1" name="LT_0" src="je124" xy="4,4" size="95,111">
+      <relation target="n14" sidePair="right-left,bottom-top"/>
+    </component>
+    <component id="n8" name="TR_1" src="je12g" xy="215,13" size="160,60"/>
+    <component id="n9" name="TR_0" src="je12i" xy="415,13"/>
+    <list id="n11" name="MainBtnList" xy="0,838" size="640,120" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="5,0,0,0" colGap="15" defaultItem="ui://l7qd2j0bje12a">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22" name="n22" src="qcq914" pkg="5coj2i4m" xy="523,87"/>
+  </displayList>
+</component>je124.xml|622|<component size="95,112" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3" name="icon" xy="0,0" size="95,112" url="ui://l7qd2j0bje12q" fill="scale">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>je12a.xml|572|<component size="114,110" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n5" name="icon" xy="5,5" size="114,110" url="ui://l7qd2j0bje12o" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearXY controller="button" pages="1,3" values="5,5|5,5" default="0,0"/>
+      <gearColor controller="button" pages="1,3" values="#c9c9c9|#cccccc" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>je12g.xml|796|<component size="160,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4" name="icon" xy="0,0" size="159,60" url="ui://l7qd2j0bje12n" fill="scale">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+    <text id="n2" name="CoinText" xy="61,12" size="73,37" font="黑体" fontSize="22" color="#eefcff" align="center" vAlign="middle" autoSize="none" strokeColor="#157caa" strokeSize="2" singleLine="true" text="12345">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+  <transition name="t0"/>
+</component>je12i.xml|768|<component size="160,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4" name="icon" xy="0,0" size="160,60" url="ui://l7qd2j0bje12s">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+    <text id="n2" name="StoneText" xy="46,9" size="105,45" font="黑体" fontSize="22" color="#eefcff" align="center" vAlign="middle" leading="2" autoSize="none" strokeColor="#157caa" strokeSize="2" singleLine="true" text="123">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>kt0u1h.xml|198|<movieclip interval="166" frameCount="4">
+  <frames>
+    <frame rect="0,0,79,41"/>
+    <frame rect="0,0,79,41"/>
+    <frame rect="0,0,79,41"/>
+    <frame rect="13,4,53,32"/>
+  </frames>
+</movieclip>nbvw1l.xml|573|<component size="0,0">
+  <controller name="State" pages="0,JiaZi,1,Food,2,Shower,3,ChanZi,4,Hand,5,Bag,6,KongXian" selected="0"/>
+  <displayList>
+    <component id="n18" name="QiPao" src="8zqr1g" xy="65,-65"/>
+    <component id="n21" name="Hunger" src="hjltl" pkg="ldxq6q14" xy="0,0">
+      <gearDisplay controller="State" pages="1,2,4,5"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <movieclip id="n20" name="Caught" src="kt0u1h" xy="0,0" playing="false">
+      <gearDisplay controller="State" pages="0"/>
+    </movieclip>
+  </displayList>
+</component>package.xml|3447|<packageDescription id="l7qd2j0b" name="MainPack">
+  <resources>
+    <component id="8zqr1g" name="QiPao" path="/Components/" size="94,100"/>
+    <component id="aiat21" name="LoadingBar" path="/Components/" size="597,59"/>
+    <component id="bl921s" name="Rains" path="/Components/" size="113,71"/>
+    <component id="bl921t" name="RainSingle" path="/Components/" size="23,33"/>
+    <component id="bl921u" name="ShowerHead" path="/Components/" size="133,217"/>
+    <component id="caqo1q" name="MainCaoCong" path="/Components/" size="640,160"/>
+    <component id="cp9q13" name="AnimalPlace" path="/Components/" size="640,700"/>
+    <component id="je124" name="TL_Btn_0" path="/Components/" size="95,112"/>
+    <component id="je12a" name="B_Btn" path="/Components/" size="114,110"/>
+    <component id="je12g" name="TR_Bg_Coin" path="/Components/" size="160,60"/>
+    <component id="je12i" name="TR_Bg_Stone" path="/Components/" size="160,60"/>
+    <component id="nbvw1l" name="Top" path="/Components/" size="0,0"/>
+    <image id="8zqr1f" name="idea_text_qipao" path="/Images/" size="94,100"/>
+    <image id="aiat1x" name="fou94" path="/" size="88,59"/>
+    <image id="aiat1y" name="fou93" path="/" size="85,59"/>
+    <image id="aiat1z" name="fou92" path="/" size="4,16"/>
+    <image id="ant61m" name="health_text_bianbian" path="/Images/" size="60,51"/>
+    <image id="caqo1o" name="BG" path="/Images/" size="640,960"/>
+    <image id="caqo1p" name="CaoCong" path="/Images/" size="640,322"/>
+    <image id="hjlt17" name="bathe_text_shui" path="/Images/" size="23,33"/>
+    <image id="hjlt18" name="bathe_text_huasa" path="/Images/" size="133,145"/>
+    <image id="hjlt19" name="bathe_text_guanzi" path="/Images/" size="20,59" scale="tile" scale9grid="5,15,10,30"/>
+    <image id="je12n" name="hpg_btn_jinbi" path="/Images/" size="160,60"/>
+    <image id="je12q" name="hpg_btn_caidan" path="/Images/" size="95,112"/>
+    <image id="je12s" name="hpg_btn_zuanshi" path="/Images/" size="160,60"/>
+    <movieclip id="cqnex" name="chmf8" path="/Images/" size="84,74"/>
+    <movieclip id="kt0u1h" name="MovieClip1" path="/Images/" size="79,41"/>
+    <component id="aiat22" name="LoadingUI" path="/Components/" size="640,960" exported="true"/>
+    <component id="aiat24" name="CAnimal" path="/Components/" size="100,100" exported="true"/>
+    <component id="bl921r" name="CShit" path="/Components/" size="60,51" exported="true"/>
+    <component id="cp9q10" name="CFood" path="/Components/" size="92,110" exported="true"/>
+    <component id="je122" name="MainPanel" path="/Components/" size="640,960" exported="true"/>
+    <image id="hjlt1a" name="bathe_text_dikuang1" path="/Images/" size="81,10" exported="true"/>
+    <image id="hjlt1b" name="bathe_text_xizao1" path="/Images/" size="127,8" exported="true"/>
+    <image id="je12k" name="hpg_btn_xizao" path="/Images/" size="114,110" exported="true"/>
+    <image id="je12l" name="hpg_btn_shiwu" path="/Images/" size="114,110" exported="true"/>
+    <image id="je12m" name="hpg_btn_neizi" path="/Images/" size="110,110" exported="true"/>
+    <image id="je12o" name="hpg_btn_fumo" path="/Images/" size="114,110" exported="true"/>
+    <image id="je12p" name="hpg_btn_chanzi" path="/Images/" size="114,110" exported="true"/>
+    <image id="je12r" name="hpg_btn_beibao" path="/Images/" size="110,110" exported="true"/>
+    <atlas id="atlas0" size="2048,1024" file="atlas0.png"/>
+  </resources>
+</packageDescription>

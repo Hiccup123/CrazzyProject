@@ -1,0 +1,84 @@
+package.xml|926|<packageDescription id="pw0acm2t" name="EffectPack">
+  <resources>
+    <component id="t3wl1t" name="Skill" path="/Components/" size="630,857" exported="true"/>
+    <component id="w1z31u" name="FAttackSingle" path="/Components/" size="100,100" exported="true"/>
+    <component id="w1z31v" name="FSkill" path="/Components/" size="100,100" exported="true"/>
+    <movieclip id="t3wl15" name="TargetWarrning" path="/Components/" size="180,180" exported="true"/>
+    <movieclip id="t3wl1r" name="Openning" path="/Components/" size="60,60" exported="true"/>
+    <movieclip id="t3wla" name="Skill1" path="/Components/" size="257,419" exported="true"/>
+    <movieclip id="t3wlm" name="Stars" path="/Components/" size="220,220" exported="true"/>
+    <movieclip id="t3wlv" name="BaoDian" path="/Components/" size="700,700" exported="true"/>
+    <atlas id="atlas0" size="2048,1024" file="atlas0.png"/>
+  </resources>
+</packageDescription>t3wl15.xml|332|<movieclip interval="83" frameCount="8">
+  <frames>
+    <frame rect="3,0,169,180"/>
+    <frame rect="0,0,180,179"/>
+    <frame rect="0,0,180,179"/>
+    <frame rect="0,0,180,176"/>
+    <frame rect="2,0,178,173"/>
+    <frame rect="4,0,173,176"/>
+    <frame rect="7,0,167,176"/>
+    <frame rect="8,3,165,170"/>
+  </frames>
+</movieclip>t3wl1r.xml|377|<movieclip interval="41" frameCount="10">
+  <frames>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="6,6,50,49"/>
+    <frame rect="5,6,51,49"/>
+  </frames>
+</movieclip>t3wl1t.xml|158|<component size="630,857" pivot="0.5,1">
+  <displayList>
+    <movieclip id="n3" name="n1" src="t3wla" xy="0,0" size="630,1071"/>
+  </displayList>
+</component>t3wla.xml|307|<movieclip interval="83" frameCount="7">
+  <frames>
+    <frame rect="115,177,26,64"/>
+    <frame rect="0,3,257,413"/>
+    <frame rect="0,1,257,416"/>
+    <frame rect="0,0,257,418"/>
+    <frame rect="0,0,257,419"/>
+    <frame rect="13,137,231,145"/>
+    <frame rect="45,170,166,79"/>
+  </frames>
+</movieclip>t3wlm.xml|412|<movieclip interval="41" frameCount="10">
+  <frames>
+    <frame rect="83,74,64,65"/>
+    <frame rect="78,69,76,75"/>
+    <frame rect="66,60,101,95"/>
+    <frame rect="55,50,124,116"/>
+    <frame rect="46,41,142,134"/>
+    <frame rect="38,33,159,150"/>
+    <frame rect="32,27,172,163"/>
+    <frame rect="27,18,183,177"/>
+    <frame rect="23,14,191,185"/>
+    <frame rect="21,10,194,192"/>
+  </frames>
+</movieclip>t3wlv.xml|325|<movieclip interval="125" frameCount="7">
+  <frames>
+    <frame rect="246,244,204,201"/>
+    <frame rect="246,238,215,211"/>
+    <frame rect="242,225,226,224"/>
+    <frame rect="246,225,223,230"/>
+    <frame rect="246,223,226,233"/>
+    <frame rect="246,268,226,179"/>
+    <frame rect="350,350,0,0"/>
+  </frames>
+</movieclip>w1z31u.xml|267|<component size="100,100" opaque="false">
+  <displayList>
+    <graph id="n0_w1z3" name="n0" xy="0,0" size="100,100"/>
+    <graph id="n1_f28t" name="n1" xy="0,0" size="100,100"/>
+    <graph id="n2_f28t" name="n2" xy="0,0" size="100,100"/>
+  </displayList>
+</component>w1z31v.xml|132|<component size="100,100">
+  <displayList>
+    <graph id="n0_w1z3" name="n0" xy="0,0" size="100,100"/>
+  </displayList>
+</component>

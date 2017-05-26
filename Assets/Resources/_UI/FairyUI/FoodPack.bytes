@@ -1,0 +1,54 @@
+9maph.xml|355|<component size="641,960" opaque="false">
+  <displayList>
+    <image id="n0" name="FoodBg" src="9mape" xy="15,701" size="610,160"/>
+    <list id="n4" name="FoodList" xy="42,711" size="560,130" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,0,0" clipSoftness="5,5" colGap="8" defaultItem="ui://ldxq6q149mapi"/>
+  </displayList>
+</component>9mapi.xml|1182|<component size="112,128" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedover" selected="0"/>
+  <displayList>
+    <image id="n0" name="ItemBg" src="9map7" xy="0,0" size="105,125" group="n6"/>
+    <text id="n3" name="ItemName" xy="7,3" size="90,25" group="n6" font="黑体" fontSize="18" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="波彩糖"/>
+    <loader id="n5" name="icon" xy="18,35" size="92,110" group="n6" scale="0.7,0.7" url="ui://ldxq6q149map3" align="center" vAlign="middle"/>
+    <image id="n1" name="NumBg" src="9map8" xy="75,93" size="35,35" group="n6"/>
+    <text id="n4" name="Num" xy="77,93" size="35,35" group="n6" font="黑体" fontSize="18" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" singleLine="true" text="99"/>
+    <group id="n6" name="n6" xy="0,0" size="112,128" advanced="true">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearXY controller="button" pages="0,1,3" values="0,0|8,5|8,5" default="0,0"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>hjltl.xml|425|<component size="131,12" extention="ProgressBar">
+  <displayList>
+    <image id="n2" name="Bg" src="9map2" xy="0,0"/>
+    <component id="n6" name="bar" src="hjltm" xy="2,2" size="127,8"/>
+    <image id="n4" name="Light" src="9map6" xy="120,2">
+      <relation target="n6" sidePair="right-right"/>
+    </image>
+    <image id="n5" name="n5" src="hjlt1a" pkg="l7qd2j0b" xy="24,1"/>
+  </displayList>
+  <ProgressBar/>
+</component>hjltm.xml|169|<component size="127,8" overflow="hidden">
+  <displayList>
+    <loader id="n0" name="icon" xy="0,0" size="127,8" url="ui://ldxq6q149map5"/>
+  </displayList>
+</component>package.xml|1422|<packageDescription id="ldxq6q14" name="FoodPack">
+  <resources>
+    <atlas id="atlas0" size="1024,256" file="atlas0.png"/>
+    <component id="9maph" name="FoodUI" exported="true" size="641,960"/>
+    <component id="9mapi" name="FoodItem" size="112,128"/>
+    <component id="hjltl" name="Hunger" exported="true" size="131,12"/>
+    <component id="hjltm" name="Bar" size="127,8"/>
+    <image id="9map2" name="food_text_tiaodi1" size="131,12" scale9grid="33,3,66,6" smoothing="false"/>
+    <image id="9map3" name="food_text_tangguo" size="93,101" exported="true"/>
+    <image id="9map4" name="food_text_shiwutiao2" size="80,20" scale="9grid" scale9grid="20,5,40,10" exported="true"/>
+    <image id="9map5" name="food_text_shiwutiao1" size="127,8" exported="true"/>
+    <image id="9map6" name="food_text_light" size="9,8"/>
+    <image id="9map7" name="food_text_kuang" size="138,168"/>
+    <image id="9map8" name="food_text_dengji" size="46,46"/>
+    <image id="9map9" name="food_text_buding" size="110,83" exported="true"/>
+    <image id="9mapa" name="food_text_boli" size="134,24" exported="true" scale="9grid" scale9grid="34,6,68,12"/>
+    <image id="9mapb" name="food_text_bangtang" size="92,110" exported="true"/>
+    <image id="9mapc" name="food_btn_jia" size="50,50" exported="true"/>
+    <image id="9mape" name="food_bg_di" size="610,160" scale="9grid" scale9grid="47,30,525,84"/>
+  </resources>
+</packageDescription>

@@ -1,0 +1,188 @@
+
+bear_skill.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bear_arm
+  rotate: true
+  xy: 369, 13
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+bear_arm_r
+  rotate: true
+  xy: 441, 18
+  size: 27, 28
+  orig: 27, 31
+  offset: 0, 3
+  index: -1
+bear_body
+  rotate: false
+  xy: 132, 42
+  size: 87, 84
+  orig: 87, 84
+  offset: 0, 0
+  index: -1
+bear_body_bottom
+  rotate: true
+  xy: 2, 2
+  size: 124, 128
+  orig: 124, 128
+  offset: 0, 0
+  index: -1
+bear_clothes
+  rotate: false
+  xy: 369, 49
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+bear_eye
+  rotate: false
+  xy: 274, 42
+  size: 3, 4
+  orig: 3, 4
+  offset: 0, 0
+  index: -1
+bear_eye_
+  rotate: false
+  xy: 485, 86
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+bear_eyebrow_l
+  rotate: false
+  xy: 485, 94
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+bear_eyebrow_r
+  rotate: true
+  xy: 274, 48
+  size: 5, 4
+  orig: 5, 4
+  offset: 0, 0
+  index: -1
+bear_face
+  rotate: false
+  xy: 314, 24
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+bear_hair_1
+  rotate: true
+  xy: 307, 51
+  size: 10, 5
+  orig: 10, 5
+  offset: 0, 0
+  index: -1
+bear_hair_2
+  rotate: false
+  xy: 314, 14
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+bear_hair_3
+  rotate: true
+  xy: 292, 47
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+bear_hair_4
+  rotate: false
+  xy: 292, 63
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+bear_hand
+  rotate: false
+  xy: 406, 13
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+bear_hand_l
+  rotate: true
+  xy: 280, 2
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+bear_leg_l
+  rotate: true
+  xy: 241, 2
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+bear_leg_r
+  rotate: true
+  xy: 471, 43
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+bear_mouth
+  rotate: true
+  xy: 485, 108
+  size: 18, 25
+  orig: 18, 25
+  offset: 0, 0
+  index: -1
+effect_flash_1
+  rotate: false
+  xy: 221, 79
+  size: 87, 47
+  orig: 87, 47
+  offset: 0, 0
+  index: -1
+effect_flash_2
+  rotate: false
+  xy: 397, 86
+  size: 86, 40
+  orig: 86, 40
+  offset: 0, 0
+  index: -1
+effect_flash_3
+  rotate: false
+  xy: 310, 80
+  size: 85, 46
+  orig: 85, 46
+  offset: 0, 0
+  index: -1
+effect_flash_4
+  rotate: false
+  xy: 397, 47
+  size: 72, 37
+  orig: 72, 37
+  offset: 0, 0
+  index: -1
+effect_light_big
+  rotate: false
+  xy: 221, 55
+  size: 69, 22
+  orig: 69, 22
+  offset: 0, 0
+  index: -1
+effect_light_small
+  rotate: false
+  xy: 221, 42
+  size: 51, 11
+  orig: 51, 11
+  offset: 0, 0
+  index: -1
+effect_sence
+  rotate: true
+  xy: 132, 2
+  size: 38, 107
+  orig: 38, 107
+  offset: 0, 0
+  index: -1

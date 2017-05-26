@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<SoundList id="101" name="music.Castle" />
+<SoundList id="102" name="music.pet" />
+<SoundList id="103" name="music.fight" />
+<SoundList id="201" name="sound.button" />
+<SoundList id="202" name="sound.wrong.click" />
+<SoundList id="301" name="sound.eat" />
+<SoundList id="302" name="sound.catch" />
+<SoundList id="303" name="sound.cure" />
+<SoundList id="304" name="sound.wash" />
+<SoundList id="305" name="sound.Stroke" />
+<SoundList id="306" name="sound.scoop" />
+<SoundList id="307" name="sound.leval.up" />
+<SoundList id="401" name="sound.click1" />
+<SoundList id="402" name="sound.Swap" />
+<SoundList id="403" name="sound.strip1" />
+<SoundList id="404" name="sound.click2" />
+<SoundList id="405" name="sound.strip2" />
+<SoundList id="406" name="sound.fight1" />
+<SoundList id="407" name="sound.lose" />
+<SoundList id="408" name="sound.win" />
+<SoundList id="409" name="sound.draw" />
+<SoundList id="410" name="sound.new.round" />
+</dataset>

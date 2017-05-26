@@ -1,0 +1,77 @@
+dey7m.xml|223|<component size="120,112" mask="n5">
+  <displayList>
+    <graph id="n4" name="n4" xy="0,0" size="120,112" type="rect" fillColor="#ff56b8d0"/>
+    <image id="n5" name="n5" src="gk53d" xy="0,0"/>
+  </displayList>
+</component>dey7r.xml|581|<component size="419,662">
+  <displayList>
+    <image id="n2" name="Bg" src="je126" pkg="5coj2i4m" xy="0,0" size="418,662"/>
+    <image id="n3" name="TitleBg" src="je12d" pkg="5coj2i4m" xy="4,4" size="409,44"/>
+    <component id="n4" name="Btn_Close" src="je129" pkg="5coj2i4m" xy="367,-18"/>
+    <loader id="n5" name="Title" xy="147,7" size="124,34" url="ui://5coj2i4mdey712" align="center" vAlign="middle"/>
+    <list id="n8" name="PetList" xy="10,53" size="399,600" overflow="scroll" margin="0,0,0,0" lineGap="-8" defaultItem="ui://lx9yib6rdey7s"/>
+  </displayList>
+</component>dey7s.xml|982|<component size="399,208" extention="Button">
+  <displayList>
+    <image id="n1" name="ItemBg" src="cqnej" pkg="5coj2i4m" xy="0,0" size="399,208"/>
+    <component id="n2" name="PetItem" src="gk53k" xy="20,20"/>
+    <text id="n3" name="PetName" xy="182,28" size="176,32" fontSize="22" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="宠物名字七个字"/>
+    <text id="n4" name="State_text" xy="162,69" size="106,32" fontSize="18" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="健康状态"/>
+    <loader id="n6" name="State" xy="260,73" size="22,22" url="ui://lx9yib6rdey7o"/>
+    <text id="n7" name="PetName" xy="288,69" size="88,32" fontSize="18" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="幼儿期"/>
+    <list id="n8" name="NeedList" xy="172,125" size="200,40" layout="row" overflow="hidden" margin="0,0,0,0" colGap="4" defaultItem="ui://lx9yib6rdey7t"/>
+  </displayList>
+  <Button/>
+</component>dey7t.xml|235|<component size="36,36">
+  <displayList>
+    <image id="n0" name="n0" src="dey711" pkg="5coj2i4m" xy="0,0"/>
+    <loader id="n1" name="n1" xy="1,2" size="110,110" scale="0.3,0.3" url="ui://l7qd2j0bje12l"/>
+  </displayList>
+</component>gk53j.xml|357|<component size="138,168">
+  <displayList>
+    <loader id="n1" name="Bg" xy="0,0" pivot="0.5,0.5" size="138,168" url="ui://ldxq6q149map7"/>
+    <text id="n2" name="n2" xy="40,9" size="58,25" font="黑体" fontSize="17" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="羊羊羊"/>
+  </displayList>
+</component>gk53k.xml|500|<component size="138,166">
+  <displayList>
+    <component id="n0" name="BgObj" src="gk53j" xy="0,0"/>
+    <loader id="n5" name="Icon" xy="11,45" size="120,112" url="ui://lx9yib6rgk53d"/>
+    <loader id="n6" name="VipBox" xy="7,37" size="121,121" url="ui://lx9yib6rgk539"/>
+    <loader id="n7" name="VipIcon" xy="83,119" size="65,50" url="ui://lx9yib6rgk53a" align="center" vAlign="middle" color="#fcfcfc"/>
+    <component id="n13" name="ZheZhao" src="dey7m" xy="11,45"/>
+  </displayList>
+</component>je122.xml|875|<component size="488,621">
+  <displayList>
+    <component id="n0" name="Bg_Obj" src="je123" xy="0,0"/>
+    <image id="n4" name="ListBg" src="cqnej" pkg="5coj2i4m" xy="10,51" size="478,570"/>
+    <list id="n1" name="AnimalList" xy="30,73" size="443,526" layout="flow_hz" overflow="scroll" margin="0,0,0,0" clipSoftness="0,5" lineGap="13" colGap="11" defaultItem="ui://lx9yib6rgk53k" autoItemSize="false" vAlign="middle"/>
+    <text id="n6" name="n6" xy="266,621" size="92,27" fontSize="20" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="收集数量"/>
+    <image id="n8" name="NumBg" src="cqnef" pkg="5coj2i4m" xy="365,619"/>
+    <text id="n9" name="n9" xy="366,620" size="104,29" font="黑体" fontSize="22" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5de" strokeSize="2" text="8/999"/>
+  </displayList>
+</component>je123.xml|507|<component size="501,662">
+  <displayList>
+    <loader id="n0" name="Com_Bg" xy="0,0" size="500,662" url="ui://5coj2i4mje126" fill="scaleFree"/>
+    <loader id="n4" name="Title_Bg" xy="6,4" size="488,44" url="ui://5coj2i4mje12d" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n8" name="Btn_Close" src="je129" pkg="5coj2i4m" xy="449,-18"/>
+    <loader id="n5" name="Title" xy="192,7" size="125,35" url="ui://5coj2i4mgk5310" align="center" vAlign="middle"/>
+  </displayList>
+</component>package.xml|1233|<packageDescription id="lx9yib6r" name="PetCollectPack">
+  <resources>
+    <atlas id="atlas0" size="256,256" file="atlas0.png"/>
+    <component id="dey7m" name="ZheZhao" size="120,112"/>
+    <component id="dey7r" name="PetListUI" exported="true" size="419,662"/>
+    <component id="dey7s" name="PetListItem" size="399,208"/>
+    <component id="dey7t" name="PedNeedItem" size="36,36"/>
+    <component id="gk53j" name="ComItem" exported="true" size="138,168"/>
+    <component id="gk53k" name="PetItem" exported="true" size="138,166"/>
+    <component id="je122" name="CollectPanel" exported="true" size="488,621"/>
+    <component id="je123" name="ComBg_Obj" size="501,662"/>
+    <image id="dey7n" name="msg_text_huang" size="22,22" exported="true" scale="9grid" scale9grid="6,6,12,12"/>
+    <image id="dey7o" name="msg_text_hong" size="22,22" exported="true" scale="9grid" scale9grid="6,6,12,12"/>
+    <image id="dey7p" name="msg_text_lv" size="22,22" exported="true" scale9grid="6,6,10,10" gridTile="31" scale="9grid"/>
+    <image id="gk539" name="pet_text_vipkuang" size="121,121"/>
+    <image id="gk53a" name="pet_text_vip" size="65,50"/>
+    <image id="gk53d" name="pet_text_ma" size="120,112"/>
+  </resources>
+</packageDescription>

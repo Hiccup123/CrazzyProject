@@ -1,0 +1,129 @@
+9map11.xml|441|<component size="107,28" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n4" name="n4" src="je12y" xy="0,0"/>
+    <loader id="n5" name="n5" xy="0,0" size="55,28" url="ui://l040eprbje12q">
+      <gearXY controller="button" pages="0,2" values="0,0|0,0" default="53,0" tween="true"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+</component>je12d.xml|1183|<component size="310,674">
+  <displayList>
+    <loader id="n13" name="Meun_Bg" xy="0,0" size="308,674" url="ui://5coj2i4mje126" fill="scaleFree"/>
+    <list id="n11" name="Btn_List" xy="18,117" size="270,540" layout="flow_vt" margin="0,0,0,0" lineGap="2" defaultItem="ui://l040eprbje12h" autoItemSize="false" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1" name="Head" src="je12i" xy="14,12"/>
+    <component id="n3" name="Btn_Editor" src="je12l" xy="122,57"/>
+    <text id="n5" name="Name" xy="107,21" size="145,30" group="n16" font="黑体" fontSize="18" color="#157caa" align="center" vAlign="middle" leading="0" autoSize="none" text="就是名字几个字"/>
+    <loader id="n14" name="NameBg" xy="106,21" size="146,30" group="n16" url="ui://5coj2i4mje127" fill="scaleFree"/>
+    <group id="n16" name="NameObj" xy="106,21" size="146,30" advanced="true"/>
+    <component id="n20" name="Btn_Close" src="je129" pkg="5coj2i4m" xy="258,-19"/>
+    <loader id="n21" name="line" xy="17,99" size="278,10" url="ui://l040eprbje12b"/>
+  </displayList>
+</component>je12h.xml|979|<component size="270,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n6" name="BtnBg" xy="15,3" size="270,58" url="ui://5coj2i4mje122" align="center" vAlign="middle" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearXY controller="button" pages="1,3" values="15,3|15,3" default="0,0"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+    <loader id="n7" name="icon" xy="15,3" size="270,58" url="ui://l040eprbje127" align="center" vAlign="middle" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearXY controller="button" pages="0,2" values="0,0|0,0" default="15,3"/>
+      <gearColor controller="button" pages="0,2" values="#ffffff|#ffffff" default="#cccccc"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>je12i.xml|288|<component size="83,90">
+  <displayList>
+    <loader id="n3" name="HeadBg" xy="0,7" size="83,83" url="ui://5coj2i4mje125" fill="scaleMatchWidth"/>
+    <loader id="n4" name="icon" xy="0,0" size="83,83" url="ui://l040eprbje122" align="center" vAlign="middle"/>
+  </displayList>
+</component>je12l.xml|813|<component size="115,33" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n0" name="Btnbg" xy="0,0" pivot="0.1,0" size="115,33" url="ui://5coj2i4mje123" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+    <loader id="n2" name="icon" xy="0,0" pivot="0.1,0" size="115,33" url="ui://l040eprbje12a" align="center" vAlign="middle" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>je12u.xml|1281|<component size="310,275">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1" name="SetBg" xy="0,2" size="310,273" url="ui://5coj2i4mje126" fill="scaleFree"/>
+    <loader id="n3" name="Set_Title_bg" xy="4,7" size="302,44" url="ui://5coj2i4mje12d" fill="scaleFree"/>
+    <component id="n4" name="Btn_Close" src="je129" pkg="5coj2i4m" xy="259,-17"/>
+    <loader id="n5" name="Title" xy="48,5" size="210,45" url="ui://5coj2i4mje12a" align="center" vAlign="middle"/>
+    <text id="n8" name="n8" xy="37,85" size="90,26" fontSize="22" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="音 乐"/>
+    <text id="n9" name="n9" xy="37,135" size="90,26" fontSize="22" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="音 效"/>
+    <component id="n16" name="Btn_Quit_Game" src="je12z" xy="18,190">
+      <Button page="0"/>
+    </component>
+    <component id="n18" name="Switch1" src="9map11" xy="144,84">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n19" name="Switch2" src="9map11" xy="144,134">
+      <Button checked="true" controller="c2" page="0"/>
+    </component>
+  </displayList>
+</component>je12y.xml|327|<component size="107,28">
+  <displayList>
+    <loader id="n10" name="n10" xy="1,0" size="105,28" url="ui://5coj2i4mje127" fill="scaleFree"/>
+    <text id="n11" name="n11" xy="0,0" size="105,28" fontSize="20" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="开   关"/>
+  </displayList>
+</component>je12z.xml|785|<component size="270,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n4" name="BtnBg" xy="0,0" size="270,58" url="ui://5coj2i4mje122" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+    <loader id="n5" name="icon" xy="0,0" size="270,58" url="ui://l040eprbje12r" align="center" vAlign="middle" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>package.xml|1744|<packageDescription id="l040eprb" name="MenuPack">
+  <resources>
+    <atlas id="atlas0" size="512,256" file="atlas0.png"/>
+    <component id="9map11" name="Btn_Switch" size="107,28"/>
+    <component id="je12d" name="MenuPanel" exported="true" size="310,674"/>
+    <component id="je12h" name="MenuBtn" size="270,58"/>
+    <component id="je12i" name="Head" exported="true" size="83,90"/>
+    <component id="je12l" name="Menu_Btn_Editor" size="115,33"/>
+    <component id="je12u" name="SetPanel" exported="true" size="310,275"/>
+    <component id="je12y" name="Switch" size="107,28"/>
+    <component id="je12z" name="Btn_Quit_Game" size="270,58"/>
+    <image id="je122" name="menu_test_touxiang" size="76,88"/>
+    <image id="je123" name="menu_btn_tujian" size="124,36" exported="true"/>
+    <image id="je124" name="menu_btn_shezhi" size="94,36" exported="true"/>
+    <image id="je125" name="menu_btn_shangcheng" size="94,36" exported="true"/>
+    <image id="je126" name="menu_btn_renwu" size="124,36" exported="true"/>
+    <image id="je127" name="menu_btn_paihang" size="94,36" exported="true"/>
+    <image id="je128" name="menu_btn_haoyou" size="94,36" exported="true"/>
+    <image id="je129" name="menu_btn_chakan" size="124,36" exported="true"/>
+    <image id="je12a" name="menu_btn_bianji" size="60,30"/>
+    <image id="je12b" name="menu_bg_line" size="278,10" exported="true" scale="tile" scale9grid="70,3,140,6" gridTile="27"/>
+    <image id="je12q" name="menu_btn_kaiguan" size="55,28"/>
+    <image id="je12r" name="menu_btn_tuichu" size="186,36"/>
+    <image id="je12s" name="menu_btn_chengbao" size="94,36" exported="true"/>
+    <image id="je12t" name="menu_btn_xiaoxi" size="94,36" exported="true"/>
+  </resources>
+</packageDescription>

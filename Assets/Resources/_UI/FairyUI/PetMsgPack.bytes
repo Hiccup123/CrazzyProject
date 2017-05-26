@@ -1,0 +1,141 @@
+ezt7p.xml|287|<component size="34,34">
+  <controller name="Show" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="g2zh2" xy="0,0" color="#999999">
+      <gearColor controller="Show" pages="1" values="#999999" default="#ffffff"/>
+    </image>
+  </displayList>
+</component>g2zhf.xml|1433|<component size="540,512">
+  <controller name="Page" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1" name="Bg" src="je126" pkg="5coj2i4m" xy="0,0" size="538,512"/>
+    <image id="n2" name="TitleBg" src="je12d" pkg="5coj2i4m" xy="4,4" size="530,44"/>
+    <component id="n3" name="Btn_Close" src="je129" pkg="5coj2i4m" xy="489,-20"/>
+    <loader id="n4" name="Title" xy="208,7" size="124,34" url="ui://5coj2i4mant615"/>
+    <component id="n6" name="Btn_Page_JiBen" src="qcq9h" xy="32,58">
+      <Button icon="ui://e48uxg9dg2zh9"/>
+    </component>
+    <component id="n7" name="Btn_Page_ShiPin" src="qcq9h" xy="320,58">
+      <Button icon="ui://e48uxg9dg2zh7"/>
+    </component>
+    <component id="n8" name="Btn_Page_ZhuangBei" src="qcq9h" xy="224,58">
+      <Button icon="ui://e48uxg9dg2zh6"/>
+    </component>
+    <component id="n9" name="Btn_Page_JiNeng" src="qcq9h" xy="128,58">
+      <Button icon="ui://e48uxg9dg2zh8"/>
+    </component>
+    <image id="n10" name="PageBg" src="cqnej" pkg="5coj2i4m" xy="13,84" size="518,418"/>
+    <list id="n15" name="PetMsgList" xy="33,104" size="477,369" selectionMode="none" overflow="scroll" margin="0,0,0,0" lineGap="-3" defaultItem="ui://e48uxg9dqcq9m">
+      <gearDisplay controller="Page" pages="1"/>
+    </list>
+    <component id="n17" name="Page_JiBen" src="qcq9i" xy="13,83">
+      <gearDisplay controller="Page" pages="0"/>
+    </component>
+  </displayList>
+</component>package.xml|1397|<packageDescription id="e48uxg9d" name="PetMsgPack">
+  <resources>
+    <atlas id="atlas0" size="256,128" file="atlas0.png"/>
+    <component id="ezt7p" name="Star" size="34,34"/>
+    <component id="g2zhf" name="PetMsgUI" exported="true" size="540,512"/>
+    <component id="qcq9h" name="MsgBtn_Page" size="96,34"/>
+    <component id="qcq9i" name="Page_JiBen" size="493,391"/>
+    <component id="qcq9j" name="AttributeItem" size="441,33"/>
+    <component id="qcq9k" name="At_Bar" size="174,34"/>
+    <component id="qcq9l" name="Up_Bar" size="375,24"/>
+    <component id="qcq9m" name="PetMsgItem" size="477,143"/>
+    <component id="qcq9n" name="PetMsgItemSingle" exported="true" size="106,109"/>
+    <component id="qcq9o" name="Btn_Check" size="36,36"/>
+    <image id="g2zh2" name="msg1_text_xing" size="34,34"/>
+    <image id="g2zh3" name="msg1_text_nv" size="32,32" exported="true"/>
+    <image id="g2zh4" name="msg1_text_nan" size="32,32" exported="true"/>
+    <image id="g2zh5" name="msg1_text_huangtiao" size="80,20" scale="9grid" scale9grid="20,5,40,10"/>
+    <image id="g2zh6" name="msg1_btn_zhuangbei" size="94,37"/>
+    <image id="g2zh7" name="msg1_btn_shipin" size="94,37"/>
+    <image id="g2zh8" name="msg1_btn_jineng" size="94,37"/>
+    <image id="g2zh9" name="msg1_btn_jiben" size="94,37"/>
+    <image id="g2zha" name="msg1_btn_fangda" size="36,36"/>
+  </resources>
+</packageDescription>qcq9h.xml|351|<component size="96,34" extention="Button">
+  <controller name="Color" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n4" name="icon" xy="2,-3" size="94,37" url="ui://e48uxg9dg2zh8" color="#cccccc">
+      <gearColor controller="Color" pages="1" values="#cccccc" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>qcq9i.xml|2784|<component size="493,391">
+  <displayList>
+    <component id="n2" name="PetItem" src="gk53k" pkg="lx9yib6r" xy="41,23"/>
+    <image id="n4" name="NameBg" src="je127" pkg="5coj2i4m" xy="207,45" size="167,30"/>
+    <text id="n5" name="PetName" xy="208,45" size="165,29" fontSize="22" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="宠物名字七个字"/>
+    <component id="n6" name="Btn_Change" src="qcq914" pkg="5coj2i4m" xy="378,42"/>
+    <image id="n7" name="Line" src="je12b" pkg="l040eprb" xy="210,84" group="n13"/>
+    <image id="n8" name="Line" src="je12b" pkg="l040eprb" xy="210,130" group="n13"/>
+    <image id="n9" name="Line" src="je12b" pkg="l040eprb" xy="30,200" size="453,10" group="n13"/>
+    <image id="n10" name="Line" src="je12b" pkg="l040eprb" xy="31,350" size="453,10" group="n13"/>
+    <image id="n11" name="Line" src="je12b" pkg="l040eprb" xy="31,300" size="453,10" group="n13"/>
+    <image id="n12" name="Line" src="je12b" pkg="l040eprb" xy="30,250" size="453,10" group="n13"/>
+    <group id="n13" name="Line" xy="30,84" size="458,276" advanced="true"/>
+    <component id="n14" name="At_Item1" src="qcq9j" xy="34,212"/>
+    <component id="n15" name="At_Item2" src="qcq9j" xy="34,261"/>
+    <component id="n16" name="At_Item3" src="qcq9j" xy="34,311"/>
+    <text id="n17" name="ChengZhuangZhi" xy="31,368" size="62,22" fontSize="18" color="#1978a5" align="center" vAlign="middle" bold="true" text="成长值"/>
+    <component id="n18" name="Grow_Bar" src="qcq9l" xy="102,367">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n20" name="SexText" xy="223,99" size="52,25" group="n25" fontSize="18" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="性别"/>
+    <image id="n21" name="SexIcon" src="g2zh4" xy="293,94" group="n25"/>
+    <text id="n22" name="Age" xy="384,99" size="72,25" group="n25" fontSize="18" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="成年期"/>
+    <group id="n25" name="Sex" xy="223,94" size="233,32" advanced="true"/>
+    <text id="n23" name="HealthText" xy="223,147" size="52,25" group="n29" fontSize="18" color="#1978a5" align="center" vAlign="middle" autoSize="none" bold="true" text="健康"/>
+    <text id="n24" name="Loyal" xy="380,148" size="54,25" group="n29" fontSize="18" color="#1978a5" vAlign="middle" autoSize="none" bold="true" text="忠诚:"/>
+    <loader id="n28" name="HealthyIcon" xy="278,149" size="61,22" group="n29" url="ui://lx9yib6rdey7p" fill="scaleFree"/>
+    <text id="n30" name="LoyalNum" xy="434,148" size="45,25" group="n29" fontSize="18" color="#1978a5" vAlign="middle" autoSize="none" bold="true" text="100"/>
+    <group id="n29" name="Health" xy="223,147" size="256,26" advanced="true"/>
+  </displayList>
+</component>qcq9j.xml|724|<component size="441,33">
+  <displayList>
+    <text id="n1" name="At_Name1" xy="0,3" size="54,26" fontSize="20" color="#1978a5" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" bold="true" text="生命"/>
+    <image id="n2" name="At_Num_Bg" src="je127" pkg="5coj2i4m" xy="55,2" size="126,30"/>
+    <text id="n3" name="At_Num" xy="54,2" size="126,28" fontSize="18" color="#1978a5" align="center" vAlign="middle" autoSize="none" text="00+00"/>
+    <text id="n4" name="At_Name2" xy="211,3" size="54,26" fontSize="20" color="#1978a5" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" bold="true" text="饥饿"/>
+    <component id="n5" name="At_Bar" src="qcq9k" xy="265,0"/>
+  </displayList>
+</component>qcq9k.xml|374|<component size="174,34">
+  <displayList>
+    <component id="n7" name="Star0" src="ezt7p" xy="0,0"/>
+    <component id="n8" name="Star1" src="ezt7p" xy="35,0"/>
+    <component id="n9" name="Star2" src="ezt7p" xy="70,0"/>
+    <component id="n10" name="Star3" src="ezt7p" xy="105,0"/>
+    <component id="n11" name="Star4" src="ezt7p" xy="140,0"/>
+  </displayList>
+</component>qcq9l.xml|442|<component size="375,24" extention="ProgressBar">
+  <displayList>
+    <image id="n2" name="bar" src="g2zh5" xy="2,2" size="370,20"/>
+    <image id="n0" name="BarBg" src="9mapa" pkg="ldxq6q14" xy="0,0" size="375,24"/>
+    <text id="n3" name="Bar_Num" xy="78,1" size="212,22" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#663333" text="888888/999999"/>
+  </displayList>
+  <ProgressBar/>
+</component>qcq9m.xml|788|<component size="477,143" extention="Button">
+  <displayList>
+    <image id="n1" name="ItemBg" src="cqnei" pkg="5coj2i4m" xy="0,0" size="477,143"/>
+    <component id="n10" name="Item" src="qcq9n" xy="38,17" group="n11"/>
+    <component id="n7" name="Btn_Left" src="qcq914" pkg="5coj2i4m" xy="169,77" group="n11"/>
+    <component id="n8" name="Btn_Right" src="qcq914" pkg="5coj2i4m" xy="318,77" group="n11"/>
+    <text id="n9" name="ItemName" xy="205,22" size="198,44" group="n11" fontSize="22" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5de" text="装备名字六字"/>
+    <group id="n11" name="ShowItem" xy="38,17" size="395,109" advanced="true"/>
+    <image id="n12" name="Add" src="9mapc" pkg="ldxq6q14" xy="213,44"/>
+  </displayList>
+  <Button/>
+</component>qcq9n.xml|324|<component size="106,109">
+  <displayList>
+    <image id="n2" name="IconBg" src="je125" pkg="5coj2i4m" xy="0,0" size="103,103"/>
+    <loader id="n3" name="Icon" xy="17,14" size="115,123" scale="0.6,0.6" url="ui://lx9yib6rgk53b"/>
+    <component id="n7" name="Btn_Check" src="qcq9o" xy="70,73"/>
+  </displayList>
+</component>qcq9o.xml|156|<component size="36,36" extention="Button">
+  <displayList>
+    <image id="n4" name="Check" src="g2zha" xy="0,0"/>
+  </displayList>
+  <Button/>
+</component>

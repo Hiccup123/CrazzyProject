@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<PetSkill id="1001" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1002" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1003" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1011" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1012" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1013" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1021" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1022" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1023" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1031" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1032" SKILL1="0" SKILL2="0" SKILL3="0" />
+<PetSkill id="1033" SKILL1="0" SKILL2="0" SKILL3="0" />
+</dataset>

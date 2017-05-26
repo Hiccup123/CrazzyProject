@@ -1,0 +1,65 @@
+cqne7.xml|748|<component size="590,693">
+  <displayList>
+    <image id="n1" name="ShopBg" src="je126" pkg="5coj2i4m" xy="0,0" size="588,693"/>
+    <image id="n7" name="ListBg" src="cqnej" pkg="5coj2i4m" xy="10,95" size="572,515"/>
+    <list id="n8" name="ShopList" xy="29,112" size="530,476" overflow="scroll" margin="0,0,0,0" defaultItem="ui://rvm9nse3cqneb"/>
+    <component id="n9" name="Btn_Buy" src="cqne8" xy="201,615"/>
+    <image id="n2" name="ShopTitleBg" src="cqne5" xy="0,0"/>
+    <image id="n3" name="Light" src="cqnee" pkg="5coj2i4m" xy="122,-72"/>
+    <component id="n10" name="Btn_Close" src="je129" pkg="5coj2i4m" xy="538,-18"/>
+    <loader id="n12" name="Title" xy="241,10" size="139,54" url="ui://5coj2i4mixck13"/>
+  </displayList>
+</component>cqne8.xml|462|<component size="183,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5" name="BtnBg" src="cqneh" pkg="5coj2i4m" xy="0,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>cqneb.xml|1369|<component size="530,119">
+  <displayList>
+    <image id="n0" name="ItemBg" src="cqnei" pkg="5coj2i4m" xy="0,0" size="530,119"/>
+    <image id="n2" name="IconBg" src="je125" pkg="5coj2i4m" xy="15,15"/>
+    <loader id="n4" name="icon" xy="23,21" size="93,101" scale="0.7,0.7" url="ui://ldxq6q149map3"/>
+    <text id="n5" name="FoodName" xy="105,27" size="106,32" fontSize="21" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="食物名称"/>
+    <text id="n6" name="Attribute" xy="105,58" size="106,32" fontSize="19" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="魅力+1"/>
+    <text id="n7" name="Num" xy="210,43" size="76,32" font="黑体" fontSize="21" color="#eefaff" align="right" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="9999"/>
+    <loader id="n9" name="Cost" xy="291,34" size="48,48" url="ui://5coj2i4mcqneg"/>
+    <image id="n12" name="NumBg" src="cqnef" pkg="5coj2i4m" xy="395,43"/>
+    <component id="n10" name="Btn_Count" src="cqnec" xy="380,38"/>
+    <component id="n11" name="Btn_Add" src="cqned" xy="470,38"/>
+    <text id="n13" name="NeedNum" xy="420,43" size="51,29" font="黑体" fontSize="21" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" text="99"/>
+  </displayList>
+</component>cqnec.xml|459|<component size="40,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n5" name="n5" src="cqne2" xy="0,0" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>cqned.xml|459|<component size="40,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n4" name="n4" src="cqne3" xy="0,0" color="#cccccc">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>package.xml|643|<packageDescription id="rvm9nse3" name="ShopPack">
+  <resources>
+    <atlas id="atlas0" size="1024,128" file="atlas0.png"/>
+    <component id="cqne7" name="ShopPanel" exported="true" size="590,693"/>
+    <component id="cqne8" name="Btn_Buy" size="183,58"/>
+    <component id="cqneb" name="ShopItem" size="530,119"/>
+    <component id="cqnec" name="Btn_Count" size="40,40"/>
+    <component id="cqned" name="Btn_Add" size="40,40"/>
+    <image id="cqne2" name="shop_btn_jian" size="40,40"/>
+    <image id="cqne3" name="shop_btn_jia" size="40,40"/>
+    <image id="cqne5" name="shop_text_lianzi" size="588,94"/>
+  </resources>
+</packageDescription>

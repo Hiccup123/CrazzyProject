@@ -1,0 +1,234 @@
+aiat20.xml|225|<component size="40,109" extention="Button">
+  <displayList>
+    <loader id="n2" name="n2" xy="0,0" size="40,109" url="ui://xcr7b4opaiat22"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>aiat21.xml|152|<component size="570,660" opaque="false">
+  <displayList>
+    <graph id="n34_w1z3" name="Effect" xy="0,0" size="570,660"/>
+  </displayList>
+</component>aiat23.xml|146|<component size="640,960">
+  <displayList>
+    <image id="n30" name="ZheZhao" src="m8hr1y" xy="0,0" size="640,960"/>
+  </displayList>
+</component>aiat25.xml|2715|<component size="640,960">
+  <displayList>
+    <component id="n0" name="ZheZhao" src="aiat23" xy="0,0"/>
+    <loader id="n2" name="FightEnd" xy="96,407" pivot="0.5,0.5" size="448,133" url="ui://xcr7b4opaiat26"/>
+    <list id="n15" name="RewardList" xy="87,574" size="477,234" group="n18" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="12" colGap="14" defaultItem="ui://e48uxg9dqcq9n"/>
+    <loader id="n5" name="Star" xy="179,263" size="70,70" group="n17" url="ui://xcr7b4opaiat28"/>
+    <loader id="n6" name="Star" xy="389,263" size="70,70" group="n17" url="ui://xcr7b4opaiat28"/>
+    <loader id="n7" name="Star" xy="284,242" size="70,70" group="n17" url="ui://xcr7b4opaiat28"/>
+    <group id="n17" name="Stars" xy="179,242" size="280,91" group="n18" advanced="true"/>
+    <group id="n18" name="Victory" xy="87,242" size="477,566" group="n22" advanced="true"/>
+    <loader id="n4" name="EndIcon" xy="11,-47" pivot="0.5,0.8" size="615,323" group="n22" url="ui://xcr7b4opaiat29"/>
+    <component id="n8" name="Player" src="gqlps" xy="263,335" group="n14"/>
+    <text id="n9" name="Name" xy="243,482" size="154,33" group="n23" fontSize="20" color="#eefaff" align="center" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="玩家名字七个字"/>
+    <text id="n12" name="Level" xy="343,517" size="136,33" group="n23" fontSize="20" color="#eefaff" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="等级6->7"/>
+    <text id="n13" name="Exp" xy="212,517" size="128,33" group="n23" fontSize="20" color="#eefaff" vAlign="middle" autoSize="none" strokeColor="#14a5d5" strokeSize="2" text="经验值+999"/>
+    <group id="n23" name="TextGroup" xy="212,482" size="267,68" group="n14" advanced="true"/>
+    <group id="n14" name="PlayerInfo" xy="212,335" size="267,215" group="n22" advanced="true"/>
+    <component id="n16" name="Btn_Quit" src="gmzd2e" xy="245,842" size="148,58" group="n22"/>
+    <component id="n21" name="Btn_Again" src="gmzd2f" xy="245,763" size="148,58" group="n22"/>
+    <group id="n22" name="JieSuan" xy="11,-47" size="615,947" advanced="true"/>
+  </displayList>
+  <transition name="FightEnd">
+    <item time="0" type="Scale" target="n2" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Quart.Out"/>
+    <item time="18" type="Scale" target="n2" tween="true" startValue="1,1" endValue="1,1" duration="6" label2="EndTag"/>
+    <item time="24" type="Scale" target="n2" label="EndTag" tween="true" startValue="1,1" ease="Linear"/>
+  </transition>
+  <transition name="Victory">
+    <item time="0" type="Scale" target="n4" label="Finished" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Bounce.Out"/>
+  </transition>
+</component>ant6e.xml|530|<component size="640,960" overflow="hidden">
+  <displayList>
+    <loader id="n2" name="Bg" xy="-5,-4" size="650,970" url="ui://xcr7b4opt3wl1t" fill="scaleFree"/>
+    <component id="n34_f28t" name="ArrowGroup" src="f28t2l" xy="22,144"/>
+    <component id="n30" name="ItemGroup" src="caqoy" xy="22,144"/>
+    <component id="n27" name="UI" src="caqou" xy="0,-1"/>
+    <component id="n31" name="SkillGroup" src="l6u21u" xy="0,0"/>
+    <component id="n33" name="Btn_Quit_Fight" src="aiat20" xy="603,432"/>
+  </displayList>
+</component>caqou.xml|796|<component size="640,962" opaque="false">
+  <displayList>
+    <component id="n29" name="Bottom" src="caqov" xy="0,815"/>
+    <loader id="n33_f28t" name="Black" xy="-30,-20" pivot="0.3,0" size="700,1000" alpha="0.5" url="ui://xcr7b4opm8hr1y" fill="scaleFree"/>
+    <component id="n31" name="ZheZhao" src="aiat21" xy="35,150"/>
+    <component id="n28" name="Top" src="caqov" xy="0,0"/>
+    <loader id="n32" name="n32" xy="642,447" size="324,88" url="ui://xcr7b4opaiat1z"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n32" tween="true" startValue="642,447" endValue="171,447" duration="24" ease="Expo.Out"/>
+    <item time="24" type="XY" target="n32" tween="true" startValue="171,447" endValue="-324,447" duration="18" ease="Quad.In"/>
+  </transition>
+</component>caqov.xml|1204|<component size="640,147">
+  <displayList>
+    <loader id="n5" name="Bg" xy="0,29" pivot="0.5,0.5" size="640,118" url="ui://xcr7b4opant6n"/>
+    <loader id="n19" name="HuaWen" xy="0,0" pivot="0.5,0.5" size="640,111" rotation="180" url="ui://xcr7b4opaiat24"/>
+    <component id="n8" name="Player" src="gqlps" xy="520,6"/>
+    <list id="n9" name="List" xy="9,38" size="397,104" layout="row" selectionMode="none" overflow="hidden" colGap="10" defaultItem="ui://xcr7b4opt3wl1p" autoItemSize="false"/>
+    <component id="n12" name="Blood" src="gqlpt" xy="11,1">
+      <ProgressBar value="10000" max="10000"/>
+    </component>
+    <text id="n15" name="NameText" xy="386,50" size="146,35" group="n18" font="黑体" fontSize="18" color="#1978a5" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="主角名字七个字"/>
+    <image id="n16" name="Line" src="t3wl1k" xy="401,88" group="n18"/>
+    <text id="n17" name="StateText" xy="390,95" size="135,35" group="n18" font="黑体" fontSize="18" color="#1978a5" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" text="待机中..."/>
+    <group id="n18" name="TextGroup" xy="386,50" size="146,80" advanced="true"/>
+  </displayList>
+</component>caqox.xml|149|<component size="54,54">
+  <displayList>
+    <loader id="n0" name="n0" xy="0,0" size="54,54" url="ui://xcr7b4opant6m"/>
+  </displayList>
+</component>caqoy.xml|71|<component size="594,680" opaque="false">
+  <displayList/>
+</component>f28t2k.xml|230|<component size="84,30" pivot="0.5,0.5" anchor="true" opaque="false">
+  <displayList>
+    <loader id="n0_f28t" name="n0" xy="0,0" pivot="0.5,0.5" anchor="true" size="84,30" url="ui://xcr7b4opf28t2j"/>
+  </displayList>
+</component>f28t2l.xml|174|<component size="594,680" opaque="false">
+  <displayList>
+    <loader id="n1_f28t" name="n1" xy="0,0" size="594,680" url="ui://xcr7b4opt3wl1a"/>
+  </displayList>
+</component>gmzd2e.xml|590|<component size="183,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="cqneh" pkg="5coj2i4m" xy="0,0" size="183,58">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5" name="n5" xy="55,10" size="78,34" url="ui://xcr7b4opgmzd2i">
+      <relation target="" sidePair="left-center"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>gmzd2f.xml|591|<component size="183,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="cqneh" pkg="5coj2i4m" xy="0,0" size="183,58">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5" name="n5" xy="29,10" size="124,34" url="ui://xcr7b4opgmzd2h">
+      <relation target="" sidePair="left-center"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>gqlps.xml|249|<component size="118,140">
+  <displayList>
+    <loader id="n3" name="HeadBg" xy="0,0" size="116,140" url="ui://xcr7b4opt3wl1j"/>
+    <loader id="n1" name="PlayerHead" xy="-4,3" size="122,128" url="ui://xcr7b4opt3wl1e"/>
+  </displayList>
+</component>gqlpt.xml|498|<component size="504,25" extention="ProgressBar">
+  <displayList>
+    <component id="n6" name="bar" src="t3wl11" xy="1,0" size="500,23"/>
+    <loader id="n1" name="Bg" xy="0,0" size="504,23" url="ui://xcr7b4opt3wl1d" fill="scaleFree"/>
+    <text id="n5" name="title" xy="148,0" size="225,26" font="黑体" fontSize="18" color="#fff4ee" align="center" vAlign="middle" autoSize="none" strokeColor="#974f06" text="99999999/99999999"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>l6u21u.xml|222|<component size="640,960" opaque="false">
+  <displayList>
+    <graph id="n1_w1z3" name="Skill1" xy="0,367" size="640,228"/>
+    <graph id="n2_w1z3" name="Skill2" xy="-254,359" size="216,228"/>
+  </displayList>
+</component>package.xml|5643|<packageDescription id="xcr7b4op" name="FightPack">
+  <resources>
+    <component id="aiat20" name="Btn_Quit_Fight" path="/Components/" size="40,109"/>
+    <component id="aiat21" name="FightZheZhao" path="/Components/" size="570,660"/>
+    <component id="aiat23" name="ComZheZhao" path="/Components/" size="640,960"/>
+    <component id="caqou" name="FightMsg" path="/Components/" size="640,962"/>
+    <component id="caqov" name="FPlayerMsg" path="/Components/" size="640,147"/>
+    <component id="caqoy" name="BoxGroup" path="/Components/" size="594,680"/>
+    <component id="f28t2l" name="ArrowGroup" path="/Components/" size="594,680"/>
+    <component id="gmzd2e" name="Btn_Quit" path="/Components/" size="183,58"/>
+    <component id="gmzd2f" name="Btn_Fight_Aagin" path="/Components/" size="183,58"/>
+    <component id="gqlps" name="FPlayer" path="/Components/" size="118,140"/>
+    <component id="gqlpt" name="RedBlood" path="/Components/" size="504,25"/>
+    <component id="l6u21u" name="SkillGroup" path="/Components/" size="640,960"/>
+    <component id="t3wl11" name="Bar" path="/Components/" size="500,23"/>
+    <component id="t3wl1p" name="FAnimalSingle" path="/Components/" size="92,103"/>
+    <component id="t3wl1q" name="FpowerBar" path="/Components/" size="82,12"/>
+    <component id="t3wl1r" name="PowerBar" path="/Components/" size="72,8"/>
+    <image id="aiat1z" name="battle_text_caozuo" path="/Images/" size="324,88"/>
+    <image id="aiat22" name="battle_btn_tuichu" path="/Images/" size="40,109"/>
+    <image id="aiat24" name="battle_text_huawen" path="/Images/" size="640,111"/>
+    <image id="aiat26" name="battle_text_jieshu" path="/Images/" size="448,133"/>
+    <image id="aiat28" name="battle_text_xing" path="/Images/" size="70,70"/>
+    <image id="ant6n" name="battle_text_di" path="/Images/" size="640,118"/>
+    <image id="f28t2j" name="pet_line" path="/Images/" size="84,30"/>
+    <image id="gmzd2h" name="battle_btn_tiaozhan" path="/Images/" size="124,34"/>
+    <image id="gmzd2i" name="battle_btn_likai" path="/Images/" size="78,34"/>
+    <image id="m8hr1y" name="battle_text_mengban" path="/Images/" size="40,40"/>
+    <image id="t3wl1a" name="battle_text_banz" path="/Images/" size="594,680"/>
+    <image id="t3wl1c" name="battle_text_xuetiao2" path="/Images/" size="500,20"/>
+    <image id="t3wl1d" name="battle_text_xuetiao1" path="/Images/" size="504,24"/>
+    <image id="t3wl1e" name="battle_text_touxiang" path="/Images/" size="122,128"/>
+    <image id="t3wl1f" name="battle_text_nengliang" path="/Images/" size="83,8"/>
+    <image id="t3wl1j" name="battle_text_kuang1" path="/Images/" size="116,140"/>
+    <image id="t3wl1k" name="battle_text_xian" path="/Images/" size="107,7"/>
+    <image id="t3wl1t" name="battle_bg_zhandou1" path="/Images/" size="640,960"/>
+    <component id="aiat25" name="FightEnd" path="/Components/" size="640,960" exported="true"/>
+    <component id="ant6e" name="FightUI" path="/Components/" size="640,960" exported="true"/>
+    <component id="caqox" name="FBox" path="/Components/" size="54,54" exported="true"/>
+    <component id="f28t2k" name="Link" path="/Components/" size="84,30" exported="true"/>
+    <component id="t3wl1s" name="FItem" path="/Components/" size="70,70" exported="true"/>
+    <image id="aiat27" name="battle_text_xl" path="/Images/" size="615,323" exported="true"/>
+    <image id="aiat29" name="battle_text_shibai" path="/Images/" size="615,323" exported="true"/>
+    <image id="aiat2a" name="battle_text_baoxiang" path="/Images/" size="94,94" exported="true"/>
+    <image id="ant6h" name="battle_text_mao" path="/Images/" size="50,50" exported="true"/>
+    <image id="ant6i" name="battle_text_ji" path="/Images/" size="70,78" exported="true"/>
+    <image id="ant6k" name="battle_text_gou" path="/Images/" size="70,78" exported="true"/>
+    <image id="ant6p" name="battle_text_shu" path="/Images/" size="70,78" exported="true"/>
+    <image id="caqo10" name="battle_text_hong" path="/Images/" size="70,78" exported="true"/>
+    <image id="caqoz" name="battle_text_zi" path="/Images/" size="50,50" exported="true"/>
+    <image id="t3wl12" name="battle_text_lvnl" path="/Images/" size="20,22" exported="true"/>
+    <image id="t3wl13" name="battle_text_lannl" path="/Images/" size="20,22" exported="true"/>
+    <image id="t3wl14" name="battle_text_huangnl" path="/Images/" size="20,22" exported="true"/>
+    <image id="t3wl15" name="battle_text_hongnl" path="/Images/" size="20,22" exported="true"/>
+    <image id="t3wl16" name="battle_text_gongji" path="/Images/" size="25,20" exported="true"/>
+    <image id="t3wl17" name="battle_text_fangyu" path="/Images/" size="25,20" exported="true"/>
+    <image id="t3wl18" name="battle_text_shengming" path="/Images/" size="25,20" exported="true"/>
+    <image id="t3wl19" name="battle_text_hongtiao" path="/Images/" size="87,12" exported="true"/>
+    <image id="t3wl1g" name="battle_text_lvtiao" path="/Images/" size="87,12" exported="true"/>
+    <image id="t3wl1h" name="battle_text_lantiao" path="/Images/" size="87,12" exported="true"/>
+    <image id="t3wl1i" name="battle_text_huangtiao" path="/Images/" size="87,12" exported="true"/>
+    <image id="t3wl1l" name="battle_text_landi" path="/Images/" size="86,86" exported="true"/>
+    <image id="t3wl1m" name="battle_text_huangdi" path="/Images/" size="86,86" exported="true"/>
+    <image id="t3wl1n" name="battle_text_hongdi" path="/Images/" size="86,86" exported="true"/>
+    <image id="t3wl1o" name="battle_text_lvdi" path="/Images/" size="86,86" exported="true"/>
+    <atlas id="atlas0" size="2048,1024" file="atlas0.png"/>
+  </resources>
+</packageDescription>t3wl11.xml|188|<component size="500,23" overflow="hidden">
+  <displayList>
+    <loader id="n4" name="bar" xy="0,0" size="500,23" url="ui://xcr7b4opt3wl1c" fill="scaleFree"/>
+  </displayList>
+</component>t3wl1p.xml|742|<component size="92,103" opaque="false" extention="Button">
+  <displayList>
+    <graph id="n9_f28t" name="Effect" xy="-1,0" size="93,103"/>
+    <loader id="n0" name="Bg" xy="3,9" size="86,86" url="ui://xcr7b4opt3wl1n"/>
+    <loader id="n3" name="HeadIcon" xy="6,0" size="76,88" group="n8" url="ui://l040eprbje122"/>
+    <loader id="n2" name="TypeIcon" xy="1,6" size="25,20" group="n8" url="ui://xcr7b4opt3wl17"/>
+    <component id="n4" name="PowerBar" src="t3wl1q" xy="10,85" group="n8">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <group id="n8" name="AnimalObj" xy="1,0" size="91,97" advanced="true"/>
+    <component id="n7" name="Null" src="t3wl1s" xy="11,17" pivot="0.5,0.5"/>
+  </displayList>
+  <Button/>
+</component>t3wl1q.xml|368|<component size="82,12" extention="ProgressBar">
+  <displayList>
+    <loader id="n1" name="Bg" xy="7,0" size="75,12" url="ui://xcr7b4opt3wl1h" fill="scaleFree"/>
+    <component id="n3" name="bar" src="t3wl1r" xy="7,2" size="72,8"/>
+    <loader id="n5" name="PowerIcon" xy="-10,-6" size="20,22" url="ui://xcr7b4opt3wl12"/>
+  </displayList>
+  <ProgressBar/>
+</component>t3wl1r.xml|184|<component size="72,8" overflow="hidden">
+  <displayList>
+    <loader id="n2" name="bar" xy="0,0" size="72,8" url="ui://xcr7b4opt3wl1f" fill="scaleFree"/>
+  </displayList>
+</component>t3wl1s.xml|339|<component size="70,70" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0" name="n0" xy="0,-5" pivot="0.5,0.5" size="70,78" url="ui://xcr7b4opcaqo10" fill="scaleFree"/>
+    <component id="n7" name="Audio" src="m8hr16" pkg="5coj2i4m" xy="22,24"/>
+    <graph id="n8_w1z3" name="Effect" xy="0,0" size="70,70"/>
+  </displayList>
+</component>

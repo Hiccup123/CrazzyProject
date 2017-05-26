@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<ArtEffect id="201" name="宠物进阶" />
+<ArtEffect id="301" name="普通攻击" />
+<ArtEffect id="302" name="拖动过程中" />
+<ArtEffect id="303" name="普通消除" />
+<ArtEffect id="304" name="5个以上消除" />
+</dataset>

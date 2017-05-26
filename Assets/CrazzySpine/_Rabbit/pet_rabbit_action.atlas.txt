@@ -1,0 +1,307 @@
+
+pet_rabbit_action.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rabbit_blusher
+  rotate: true
+  xy: 968, 386
+  size: 124, 28
+  orig: 124, 28
+  offset: 0, 0
+  index: -1
+rabbit_body
+  rotate: false
+  xy: 2, 294
+  size: 211, 216
+  orig: 211, 216
+  offset: 0, 0
+  index: -1
+rabbit_body_walk
+  rotate: false
+  xy: 2, 77
+  size: 210, 215
+  orig: 210, 215
+  offset: 0, 0
+  index: -1
+rabbit_ear_l
+  rotate: true
+  xy: 472, 361
+  size: 149, 223
+  orig: 149, 223
+  offset: 0, 0
+  index: -1
+rabbit_ear_r
+  rotate: true
+  xy: 215, 369
+  size: 141, 255
+  orig: 141, 255
+  offset: 0, 0
+  index: -1
+rabbit_eye_close
+  rotate: false
+  xy: 217, 12
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+rabbit_eye_embarrassed_l
+  rotate: false
+  xy: 214, 79
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+rabbit_eye_embarrassed_r
+  rotate: false
+  xy: 28, 3
+  size: 35, 19
+  orig: 35, 19
+  offset: 0, 0
+  index: -1
+rabbit_eye_l
+  rotate: false
+  xy: 998, 398
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+rabbit_eye_r
+  rotate: false
+  xy: 998, 446
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+rabbit_eye_uncomfortable_l
+  rotate: true
+  xy: 574, 268
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+rabbit_eye_uncomfortable_r
+  rotate: false
+  xy: 602, 276
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+rabbit_eyelid_l
+  rotate: false
+  xy: 968, 342
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+rabbit_eyelid_r
+  rotate: true
+  xy: 860, 313
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+rabbit_hair_1
+  rotate: true
+  xy: 817, 321
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+rabbit_hair_2
+  rotate: true
+  xy: 530, 306
+  size: 53, 77
+  orig: 53, 77
+  offset: 0, 0
+  index: -1
+rabbit_hair_3
+  rotate: false
+  xy: 462, 289
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+rabbit_hair_4
+  rotate: true
+  xy: 430, 289
+  size: 78, 30
+  orig: 78, 30
+  offset: 0, 0
+  index: -1
+rabbit_hand_l
+  rotate: false
+  xy: 355, 195
+  size: 59, 81
+  orig: 59, 81
+  offset: 0, 0
+  index: -1
+rabbit_hand_r
+  rotate: false
+  xy: 296, 182
+  size: 57, 87
+  orig: 57, 87
+  offset: 0, 0
+  index: -1
+rabbit_head
+  rotate: false
+  xy: 697, 360
+  size: 169, 150
+  orig: 169, 150
+  offset: 0, 0
+  index: -1
+rabbit_head_uncomfortable_ill
+  rotate: true
+  xy: 868, 349
+  size: 161, 98
+  orig: 161, 98
+  offset: 0, 0
+  index: -1
+rabbit_leg_l
+  rotate: true
+  xy: 215, 271
+  size: 96, 113
+  orig: 96, 113
+  offset: 0, 0
+  index: -1
+rabbit_leg_r
+  rotate: false
+  xy: 214, 180
+  size: 80, 89
+  orig: 80, 89
+  offset: 0, 0
+  index: -1
+rabbit_lovely_hand_l
+  rotate: false
+  xy: 609, 304
+  size: 72, 55
+  orig: 72, 55
+  offset: 0, 0
+  index: -1
+rabbit_lovely_hand_r
+  rotate: false
+  xy: 214, 100
+  size: 68, 78
+  orig: 68, 78
+  offset: 0, 0
+  index: -1
+rabbit_mouth_blues_down
+  rotate: true
+  xy: 948, 321
+  size: 26, 14
+  orig: 26, 14
+  offset: 0, 0
+  index: -1
+rabbit_mouth_bottom
+  rotate: false
+  xy: 773, 319
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+rabbit_mouth_down
+  rotate: false
+  xy: 256, 75
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+rabbit_mouth_embarrassed_down
+  rotate: true
+  xy: 640, 276
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+rabbit_mouth_up
+  rotate: true
+  xy: 173, 14
+  size: 61, 42
+  orig: 61, 42
+  offset: 0, 0
+  index: -1
+rabbit_noise
+  rotate: true
+  xy: 998, 480
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+rabbit_saliva_down
+  rotate: false
+  xy: 2, 2
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+rabbit_saliva_up
+  rotate: false
+  xy: 284, 151
+  size: 7, 27
+  orig: 7, 27
+  offset: 0, 0
+  index: -1
+rabbit_scarf_1
+  rotate: false
+  xy: 2, 24
+  size: 169, 51
+  orig: 169, 51
+  offset: 0, 0
+  index: -1
+rabbit_scarf_2
+  rotate: true
+  xy: 723, 323
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+rabbit_scarf_3
+  rotate: false
+  xy: 683, 311
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+rabbit_smile_eye_l
+  rotate: false
+  xy: 904, 312
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1
+rabbit_smile_eye_r
+  rotate: true
+  xy: 217, 35
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1
+rabbit_stareye_bottom
+  rotate: false
+  xy: 530, 275
+  size: 42, 29
+  orig: 42, 29
+  offset: 0, 0
+  index: -1
+rabbit_stareye_white
+  rotate: false
+  xy: 254, 47
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+rabbit_tail
+  rotate: true
+  xy: 330, 278
+  size: 89, 98
+  orig: 89, 98
+  offset: 0, 0
+  index: -1
+rabbit_uncomfortable_sweat
+  rotate: true
+  xy: 998, 430
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1

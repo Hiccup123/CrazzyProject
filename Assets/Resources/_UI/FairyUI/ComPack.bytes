@@ -1,0 +1,201 @@
+hjltl.xml|166|<movieclip interval="41" frameCount="2">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>hjltm.xml|386|<movieclip interval="41" frameCount="7">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="500"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>hjltn.xml|166|<movieclip interval="41" frameCount="2">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>hjlto.xml|466|<movieclip interval="41" frameCount="9">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>hjltp.xml|535|<movieclip interval="41" frameCount="11">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24"/>
+    <frame rect="0,0,24,24"/>
+    <frame rect="0,0,24,24" addDelay="1000"/>
+  </frames>
+</movieclip>hjltq.xml|166|<movieclip interval="41" frameCount="2">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="125"/>
+    <frame rect="0,0,24,24" addDelay="125"/>
+  </frames>
+</movieclip>hjltr.xml|301|<movieclip interval="41" frameCount="5">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="1000"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="2000"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>hjlts.xml|791|<movieclip interval="41" frameCount="16">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="500"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="500"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="500"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="2000"/>
+  </frames>
+</movieclip>hjltt.xml|384|<movieclip interval="41" frameCount="7">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+  </frames>
+</movieclip>hjltu.xml|252|<movieclip interval="41" frameCount="4">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+  </frames>
+</movieclip>hjltv.xml|568|<movieclip interval="41" frameCount="11">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="83"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="500"/>
+  </frames>
+</movieclip>hjltw.xml|649|<movieclip interval="41" frameCount="13">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+    <frame rect="0,0,24,24" addDelay="41"/>
+  </frames>
+</movieclip>hjltx.xml|166|<movieclip interval="41" frameCount="2">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>hjlty.xml|211|<movieclip interval="41" frameCount="3">
+  <frames>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+    <frame rect="0,0,24,24" addDelay="166"/>
+  </frames>
+</movieclip>je129.xml|473|<component size="70,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="70,70" url="ui://5coj2i4mje124">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>m8hr16.xml|141|<component size="25,25" opaque="false">
+  <displayList>
+    <graph id="n5" name="Audio" xy="0,0" size="25,25"/>
+  </displayList>
+</component>package.xml|2804|<packageDescription id="5coj2i4m" name="ComPack">
+  <resources>
+    <atlas id="atlas0" size="1024,512" file="atlas0.png"/>
+    <component id="je129" name="ComBtn_Close" exported="true" size="70,70"/>
+    <component id="m8hr16" name="Audio" exported="true" size="25,25"/>
+    <component id="qcq914" name="ComBtn_Yellow" exported="true" size="115,33"/>
+    <image id="ant615" name="title_text_xinxi" size="124,34" exported="true"/>
+    <image id="cqnee" name="combg_text_light" size="341,160" exported="true"/>
+    <image id="cqnef" name="combg_text_kuang" size="106,30" exported="true"/>
+    <image id="cqneg" name="combg_text_jinbi" size="48,48" exported="true"/>
+    <image id="cqneh" name="combg_btn_hong" size="183,58" exported="true"/>
+    <image id="cqnei" name="combg_bg_liebiao" size="133,119" exported="true" scale="9grid" scale9grid="34,30,68,60"/>
+    <image id="cqnej" name="combg_bg_diban1" size="149,144" exported="true" scale="9grid" scale9grid="38,36,76,72"/>
+    <image id="cqnek" name="combg_text_zuanshi" size="48,48" exported="true"/>
+    <image id="dey711" name="combg_text_wupinkuang" size="36,36" exported="true"/>
+    <image id="dey712" name="title_text_liebiao" size="124,34" exported="true"/>
+    <image id="gk5310" name="title_text_tujian" size="124,34" exported="true"/>
+    <image id="ixck13" name="title_text_chaoshii" size="139,54" exported="true"/>
+    <image id="je122" name="combg_btn_lan" size="270,58" exported="true"/>
+    <image id="je123" name="combg_btn_huang" size="115,33" exported="true"/>
+    <image id="je124" name="combg_btn_guanbi" size="70,70"/>
+    <image id="je125" name="combg_bg_touxiangkuang" size="84,84" exported="true" scale="9grid" scale9grid="21,21,42,42"/>
+    <image id="je126" name="combg_bg_diban" size="150,150" scale="9grid" scale9grid="38,38,76,76" exported="true"/>
+    <image id="je127" name="combg_text_mingzi" size="146,30" exported="true"/>
+    <image id="je12a" name="title_text_shezhi" size="74,34" exported="true"/>
+    <image id="je12d" name="combg_bg_title" size="300,44" exported="true"/>
+    <movieclip id="hjltl" name="0" size="24,24"/>
+    <movieclip id="hjltm" name="6" size="24,24"/>
+    <movieclip id="hjltn" name="5" size="24,24"/>
+    <movieclip id="hjlto" name="4" size="24,24"/>
+    <movieclip id="hjltp" name="3" size="24,24"/>
+    <movieclip id="hjltq" name="10" size="24,24"/>
+    <movieclip id="hjltr" name="1" size="24,24"/>
+    <movieclip id="hjlts" name="13" size="24,24"/>
+    <movieclip id="hjltt" name="12" size="24,24"/>
+    <movieclip id="hjltu" name="11" size="24,24"/>
+    <movieclip id="hjltv" name="2" size="24,24"/>
+    <movieclip id="hjltw" name="9" size="24,24"/>
+    <movieclip id="hjltx" name="8" size="24,24"/>
+    <movieclip id="hjlty" name="7" size="24,24"/>
+  </resources>
+</packageDescription>qcq914.xml|637|<component size="115,33" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4" name="BtnBg" src="je123" xy="0,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="0,2" values="#ffffff|#ffffff" default="#cccccc"/>
+    </image>
+    <text id="n5" name="title" xy="27,0" size="85,33" font="黑体" fontSize="20" color="#fff5bf" vAlign="middle" letterSpacing="9" autoSize="none" bold="true" strokeColor="#c8852d" text="战斗"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.90"/>
+</component>
